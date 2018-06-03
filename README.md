@@ -1,4 +1,5 @@
 # 基于python3 的tumblr爬虫
+![](https://img.shields.io/badge/language-python-blue.svg)
 
 功能介绍：自动下载tumblr博客上的图片，以及将视频链接收集以博客id的名字保存为txt文档
 
@@ -12,9 +13,16 @@ import requests
 ### 使用方法
 
 ```
+- pip3 install -r requirements.txt
+
+- 下载图片
 - git clone git@github.com:strugglerx/tumblrWorm
 - cd tumblrWorm
 - python3 tumblrWorm.py blogID1 blogID2 ..
+
+- 下载视频
+- cd 采集库
+- python3 downVideo.py
 ```
 *tumblrWorm.py 后的blogID1参数最少为一个*
 
